@@ -8,12 +8,15 @@ import "./index.css";
 
 function SmoothScroll() {
   useEffect(() => {
+    // Let phones use native touch scrolling
+    if (window.innerWidth <= 700) {
+      return;
+    }
 
     const lenis = new Lenis({
-      duration: 1.4,
+      duration: 1.3,
       smoothWheel: true,
-      wheelMultiplier: 0.75,
-      touchMultiplier: 1,
+      wheelMultiplier: 0.8,
       lerp: 0.08,
     });
 
@@ -21,19 +24,15 @@ function SmoothScroll() {
 
     const raf = (time) => {
       lenis.raf(time);
-
-      animationFrame =
-        requestAnimationFrame(raf);
+      animationFrame = requestAnimationFrame(raf);
     };
 
-    animationFrame =
-      requestAnimationFrame(raf);
+    animationFrame = requestAnimationFrame(raf);
 
     return () => {
       cancelAnimationFrame(animationFrame);
       lenis.destroy();
     };
-
   }, []);
 
   return null;

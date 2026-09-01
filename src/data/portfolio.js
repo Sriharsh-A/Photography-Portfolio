@@ -116,8 +116,6 @@ export const portfolio = {
         "/images/portraits/ai3.png",
         "/images/portraits/ai4.png",
         "/images/portraits/ai5.png",
-        "/images/portraits/ai6.png",
-        "/images/portraits/ai7.png",
       ],
     },
   ],
