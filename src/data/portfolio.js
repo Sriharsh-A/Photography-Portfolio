@@ -30,7 +30,7 @@ export const portfolio = {
       slug: "Acha Telugu Andham",
       title: "Acha Telugu Andham",
       cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a9.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a9.webp",
       description:
         "A saree shoot with Anuja, capturing the essence of traditional Telugu beauty and elegance.",
       model: "Anuja",
@@ -39,13 +39,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "15-45mm",
       photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a9.png",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a10.png",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p12.png",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a16.png",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a19.png",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p4.png",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p16.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a9.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a10.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p12.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a16.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a19.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p16.webp",
       ],
     },
     {
@@ -243,8 +243,8 @@ export const portfolio = {
   events: [
     {
       id: 1,
-      slug: "Trishna '25",
-      title: "Trishna '25",
+      slug: "Trishna 2024",
+      title: "Trishna 2024",
       cover:
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e1.jpg",
       description:
