@@ -5,7 +5,7 @@ export const portfolio = {
       slug: "Parking Lot Stories",
       title: "Parking Lot Stories",
       cover:
-        "/images/portraits/avi4.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi4.webp",
       description:
         "A parking lot, but somehow felt like a movie set.",
       model: "Aravind Reddy",
@@ -14,14 +14,14 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-250mm",
       photos: [
-        "/images/portraits/avi4.png",
-        "/images/portraits/avi1.png",
-        "/images/portraits/avi2.png",
-        "/images/portraits/avi3.png",
-        "/images/portraits/avi5.png",
-        "/images/portraits/avi6.png",
-        "/images/portraits/avi7.png",
-        "/images/portraits/avi8.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi7.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi8.webp",
       ],
     },
 
@@ -30,7 +30,7 @@ export const portfolio = {
       slug: "Telugu Ammayi",
       title: "Telugu Ammayi",
       cover:
-        "/images/portraits/a1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a1.webp",
       description:
         "Telugu Ammayi is a portrait series that captures the essence of traditional Telugu beauty and culture.",
       model: "Anuja",
@@ -39,13 +39,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "15-45mm",
       photos: [
-        "/images/portraits/a1.png",
-        "/images/portraits/a2.png",
-        "/images/portraits/a3.png",
-        "/images/portraits/a4.png",
-        "/images/portraits/a5.png",
-        "/images/portraits/a6.png",
-        "/images/portraits/a7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a7.webp",
       ],
     },
 
@@ -54,7 +54,7 @@ export const portfolio = {
       slug: "Fashion Forward",
       title: "Fashion Forward",
       cover:
-        "/images/portraits/r1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r1.webp",
       description:
         "A Fashion Forward is a portrait series that explores contemporary fashion trends and styles.",
       model: "Rajeev",
@@ -63,13 +63,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "16-50mm",
       photos: [
-        "/images/portraits/r1.png",
-        "/images/portraits/r2.png",
-        "/images/portraits/r3.png",
-        "/images/portraits/r4.png",
-        "/images/portraits/r5.png",
-        "/images/portraits/r6.png",
-        "/images/portraits/r7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r7.webp",
       ],
     },
 
@@ -78,7 +78,7 @@ export const portfolio = {
       slug: "Old School",
       title: "Old School",
       cover:
-        "/images/portraits/rj1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj1.webp",
       description:
         "An old school portrait series that pays homage to classic photography techniques and aesthetics.",
       model: "Rajeev",
@@ -87,13 +87,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "16-50mm",
       photos: [
-        "/images/portraits/rj1.png",
-        "/images/portraits/rj2.png",
-        "/images/portraits/rj3.png",
-        "/images/portraits/rj4.png",
-        "/images/portraits/rj5.png",
-        "/images/portraits/rj6.png",
-        "/images/portraits/rj7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/rj7.webp",
       ],
     },
 
@@ -102,7 +102,7 @@ export const portfolio = {
       slug: "Lady in Red",
       title: "Lady in Red",
       cover:
-        "/images/portraits/ai1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai1.webp",
       description:
         "A lady in red, a portrait series that captures the elegance and allure of my senior in college.",
       model: "Aishwarya",
@@ -111,11 +111,11 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-210mm",
       photos: [
-         "/images/portraits/ai1.png",
-        "/images/portraits/ai2.png",
-        "/images/portraits/ai3.png",
-        "/images/portraits/ai4.png",
-        "/images/portraits/ai5.png",
+         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai5.webp",
       ],
     },
   ],
@@ -126,7 +126,7 @@ export const portfolio = {
       slug: "Rugged Elegance",
       title: "Rugged Elegance",
       cover:
-        "/images/automotive/t1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t1.webp",
       description:
         "The Thar Roxx photographed in a rugged outdoor setting, highlighting its off-road capabilities.",
       model: "Mahindra Thar Roxx",
@@ -135,13 +135,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-210mm",
       photos: [
-        "/images/automotive/t1.png",
-        "/images/automotive/t2.png",
-        "/images/automotive/t3.png",
-        "/images/automotive/t4.png",
-        "/images/automotive/t5.png",
-        "/images/automotive/t6.png",
-        "/images/automotive/t7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/t7.webp",
       ],
     },
 
@@ -150,7 +150,7 @@ export const portfolio = {
       slug: "The Cruiser",
       title: "The Cruiser",
       cover:
-         "/images/automotive/m1.png",
+         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m1.webp",
       description:
         "The meteor 350 cruiser motorcycle photographed in a scenic location, emphasizing its classic design and style.",
       model: "Royal Enfield Meteor 350",
@@ -159,13 +159,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-210mm",
       photos: [
-        "/images/automotive/m1.png",
-        "/images/automotive/m2.png",
-        "/images/automotive/m3.png",
-        "/images/automotive/m4.png",
-        "/images/automotive/m5.png",
-        "/images/automotive/m6.png",
-        "/images/automotive/m7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m7.webp",
       ],
     },
 
@@ -174,7 +174,7 @@ export const portfolio = {
       slug: "The Off-Roader",
       title: "The Off-Roader",
       cover:
-         "/images/automotive/x1.png",
+         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x1.webp",
       description:
         "The off-road capabilities of the Hero Xpulse 210 captured in a rugged outdoor environment.",
       model: "Hero Xpulse 210",
@@ -183,13 +183,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-210mm",
       photos: [
-        "/images/automotive/x1.png",
-        "/images/automotive/x2.png",
-        "/images/automotive/x3.png",
-        "/images/automotive/x4.png",
-        "/images/automotive/x5.png",
-        "/images/automotive/x6.png",
-        "/images/automotive/x7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x7.webp",
       ],
     },
 
@@ -198,7 +198,7 @@ export const portfolio = {
       slug: "Hunter",
       title: "Hunter",
       cover:
-        "/images/automotive/hu1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu1.webp",
       description:
         "Details of the Royal Enfield Hunter 350 captured, highlighting its design and craftsmanship.",
       model: "Royal Enfield Hunter 350",
@@ -207,11 +207,11 @@ export const portfolio = {
       camera: "Canon M50",
       lens: "15-45mm",
       photos: [
-        "/images/automotive/hu1.png",
-        "/images/automotive/hu2.png",
-        "/images/automotive/hu3.png",
-        "/images/automotive/hu4.png",
-        "/images/automotive/hu5.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu5.webp",
       ],
       
     },
@@ -223,7 +223,7 @@ export const portfolio = {
       slug: "formula-x",
       title: "FormulaX",
       cover:
-        "/images/product/r1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r1.webp",
       description:
         "A clean product campaign focused on form, material and detail.",
       model: "Formula X",
@@ -232,11 +232,11 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "16-50mm",
       photos: [
-        "/images/product/r1.png",
-        "/images/product/r2.png",
-        "/images/product/r3.png",
-        "/images/product/r4.png",
-        "/images/product/r5.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r5.webp",
       ],
     },
 
@@ -245,7 +245,7 @@ export const portfolio = {
       slug: "formula-X",
       title: "FormulaX ",
       cover:
-        "/images/product/m1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m1.webp",
       description:
         "Product imagery designed around simple compositions.",
       model: "Formula X",
@@ -254,13 +254,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "16-50mm",
       photos: [
-        "/images/product/m1.png",
-        "/images/product/m2.png",
-        "/images/product/m3.png",
-        "/images/product/m4.png",
-        "/images/product/m5.png",
-        "/images/product/m6.png",
-        "/images/product/m7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m7.webp",
       ],
     },
 
@@ -269,7 +269,7 @@ export const portfolio = {
       slug: "formula-x",
       title: "FormulaX",
       cover:
-        "/images/product/f1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f1.webp",
       description:
         "Minimal studio product photography.",
       model: "Formula X",
@@ -278,13 +278,13 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "16-50mm",
       photos: [
-        "/images/product/f1.png",
-        "/images/product/f2.png",
-        "/images/product/f3.png",
-        "/images/product/f4.png",
-        "/images/product/f5.png",
-        "/images/product/f6.png",
-        "/images/product/f7.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f7.webp",
       ],
     },
 
@@ -293,7 +293,7 @@ export const portfolio = {
       slug: "formula-x",
       title: "FormulaX",
       cover:
-        "/images/product/mc1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc1.webp",
       description:
         "Minimal studio product photography.",
       model: "Formula X",
@@ -302,11 +302,11 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "16-50mm",
       photos: [
-        "/images/product/mc1.png",
-        "/images/product/mc2.png",
-        "/images/product/mc3.png",
-        "/images/product/mc4.png",
-        "/images/product/mc5.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc5.webp",
       ],
     },
   ],
