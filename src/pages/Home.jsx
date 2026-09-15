@@ -40,10 +40,7 @@ function Category({ title, category, items }) {
 
       {/* VIEW MORE */}
       <div className="view-more-wrapper">
-        <Link
-          to={`/work/${category}`}
-          className="view-more"
-        >
+        <Link to={`/work/${category}`} className="view-more">
           <span>VIEW MORE</span>
           <span>↗</span>
         </Link>
@@ -66,7 +63,7 @@ export default function Home() {
         </h1>
 
         <p>
-          Portraits, automobiles & products.
+          Portraits, automobiles & events.
           <br />
           Photography with intention.
         </p>
@@ -90,9 +87,9 @@ export default function Home() {
         />
 
         <Category
-          title="Product"
-          category="products"
-          items={portfolio.products}
+          title="Events"
+          category="events"
+          items={portfolio.events}
         />
       </section>
 
@@ -111,7 +108,7 @@ export default function Home() {
           <div className="about-text">
             <p>
               I'm Sriharsh, a photographer based in Hyderabad, India.
-              I work across portraits, automobiles, events and product photography.
+              I work across portraits, automobiles and events.
             </p>
 
             <p>
@@ -138,7 +135,7 @@ export default function Home() {
         </h2>
 
         <a
-          href="mailto:your@email.com"
+          href="mailto:sriharshakkala@gmail.com"
           className="email"
         >
           sriharshakkala@gmail.com

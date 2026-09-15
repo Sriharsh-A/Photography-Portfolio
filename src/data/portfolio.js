@@ -27,6 +27,29 @@ export const portfolio = {
 
     {
       id: 2,
+      slug: "Acha Telugu Andham",
+      title: "Acha Telugu Andham",
+      cover:
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a9.png",
+      description:
+        "A saree shoot with Anuja, capturing the essence of traditional Telugu beauty and elegance.",
+      model: "Anuja",
+      location: "Indresham, Telangana, India",
+      date: "July 2026",
+      camera: "Sony A6000",
+      lens: "15-45mm",
+      photos: [
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a9.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a10.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p12.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a16.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a19.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p4.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p16.png",
+      ],
+    },
+    {
+       id: 3,
       slug: "Telugu Ammayi",
       title: "Telugu Ammayi",
       cover:
@@ -50,7 +73,7 @@ export const portfolio = {
     },
 
     {
-      id: 3,
+      id: 4,
       slug: "Fashion Forward",
       title: "Fashion Forward",
       cover:
@@ -74,7 +97,7 @@ export const portfolio = {
     },
 
     {
-      id: 4,
+      id: 5,
       slug: "Old School",
       title: "Old School",
       cover:
@@ -98,7 +121,7 @@ export const portfolio = {
     },
 
     {
-      id: 5,
+      id: 6,
       slug: "Lady in Red",
       title: "Lady in Red",
       cover:
@@ -217,97 +240,31 @@ export const portfolio = {
     },
   ],
 
-  products: [
+  events: [
     {
       id: 1,
-      slug: "formula-x",
-      title: "FormulaX",
+      slug: "Trishna '25",
+      title: "Trishna '25",
       cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e1.jpg",
       description:
-        "A clean product campaign focused on form, material and detail.",
-      model: "Formula X",
-      location: "Home Studio",
-      date: "August 2026",
+        "College Event Trishna '25, captured in a series of photographs showcasing the vibrant atmosphere and activities.",
+      model: "College Event",
+      location: "MLRIT, Telangana, India",
+      date: "May 2024",
       camera: "Sony A6000",
-      lens: "16-50mm",
+      lens: "55-210mm",
       photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r1.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r2.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r3.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r4.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/r5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/evens/e1.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e2.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e3.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e4.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e5.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e6.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e7.jpg",
       ],
     },
 
-    {
-      id: 2,
-      slug: "formula-X",
-      title: "FormulaX ",
-      cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m1.webp",
-      description:
-        "Product imagery designed around simple compositions.",
-      model: "Formula X",
-      location: "Home Studio",
-      date: "August 2026",
-      camera: "Sony A6000",
-      lens: "16-50mm",
-      photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m1.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m2.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m3.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m4.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m5.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m6.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/m7.webp",
-      ],
-    },
-
-    {
-      id: 3,
-      slug: "formula-x",
-      title: "FormulaX",
-      cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f1.webp",
-      description:
-        "Minimal studio product photography.",
-      model: "Formula X",
-      location: "Home Studio",
-      date: "June 2026",
-      camera: "Sony A6000",
-      lens: "16-50mm",
-      photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f1.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f2.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f3.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f4.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f5.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f6.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/f7.webp",
-      ],
-    },
-
-    {
-      id: 4,
-      slug: "formula-x",
-      title: "FormulaX",
-      cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc1.webp",
-      description:
-        "Minimal studio product photography.",
-      model: "Formula X",
-      location: "Home Studio",
-      date: "June 2026",
-      camera: "Sony A6000",
-      lens: "16-50mm",
-      photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc1.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc2.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc3.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc4.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/product/mc5.webp",
-      ],
-    },
+   
   ],
 };
