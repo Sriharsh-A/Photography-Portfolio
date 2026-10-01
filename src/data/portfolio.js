@@ -23,8 +23,34 @@ export const portfolio = {
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ad7.png",
       ],
     },
+
     {
       id: 2,
+      slug: "Parking Lot Stories",
+      title: "Parking Lot Stories",
+      cover:
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi4.webp",
+      description:
+        "A parking lot, but somehow felt like a movie set.",
+      model: "Aravind Reddy",
+      location: "Hyderabad, Telangana, India",
+      date: "August 2026",
+      camera: "Sony A6000",
+      lens: "55-250mm",
+      photos: [
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi7.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi8.webp",
+      ],
+    },
+
+    {
+      id: 3,
       slug: "Acha Telugu Andham",
       title: "Acha Telugu Andham",
       cover:
@@ -46,8 +72,9 @@ export const portfolio = {
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/p16.webp",
       ],
     },
+
     {
-      id: 3,
+      id: 4,
       slug: "Parking Lot Aesthetics",
       title: "Parking Lot Aesthetics",
       cover:
@@ -70,31 +97,9 @@ export const portfolio = {
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ik8.png",
       ],
     },
+
     {
-      id: 4,
-      slug: "Fashion Forward",
-      title: "Fashion Forward",
-      cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r1.webp",
-      description:
-        "A Fashion Forward is a portrait series that explores contemporary fashion trends and styles.",
-      model: "Rajeev",
-      location: "Hyderabad, Telangana, India",
-      date: "June 2026",
-      camera: "Sony A6000",
-      lens: "16-50mm",
-      photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r1.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r2.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r3.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r4.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r5.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r6.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r7.webp",
-      ],
-    },
-    {
-       id: 5,
+      id: 5,
       slug: "Telugu Ammayi",
       title: "Telugu Ammayi",
       cover:
@@ -116,8 +121,33 @@ export const portfolio = {
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/a7.webp",
       ],
     },
+
     {
       id: 6,
+      slug: "Fashion Forward",
+      title: "Fashion Forward",
+      cover:
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r1.webp",
+      description:
+        "A Fashion Forward is a portrait series that explores contemporary fashion trends and styles.",
+      model: "Rajeev",
+      location: "Hyderabad, Telangana, India",
+      date: "June 2026",
+      camera: "Sony A6000",
+      lens: "16-50mm",
+      photos: [
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r2.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r3.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r4.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r5.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r6.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/r7.webp",
+      ],
+    },
+
+    {
+      id: 7,
       slug: "Old School",
       title: "Old School",
       cover:
@@ -125,7 +155,7 @@ export const portfolio = {
       description:
         "An old school portrait series that pays homage to classic photography techniques and aesthetics.",
       model: "Rajeev",
-      location: "Hyderabad, Telangana,India",
+      location: "Hyderabad, Telangana, India",
       date: "June 2026",
       camera: "Sony A6000",
       lens: "16-50mm",
@@ -141,7 +171,7 @@ export const portfolio = {
     },
 
     {
-      id: 7,
+      id: 8,
       slug: "Lady in Red",
       title: "Lady in Red",
       cover:
@@ -154,35 +184,11 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-210mm",
       photos: [
-         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai1.webp",
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai2.webp",
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai3.webp",
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai4.webp",
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/ai5.webp",
-      ],
-    },
-    {
-      id: 8,
-      slug: "Parking Lot Stories",
-      title: "Parking Lot Stories",
-      cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi4.webp",
-      description:
-        "A parking lot, but somehow felt like a movie set.",
-      model: "Aravind Reddy",
-      location: "Hyderabad, Telangana, India",
-      date: "August 2026",
-      camera: "Sony A6000",
-      lens: "55-250mm",
-      photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi4.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi1.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi2.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi3.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi5.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi6.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi7.webp",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/portraits/avi8.webp",
       ],
     },
   ],
@@ -217,11 +223,11 @@ export const portfolio = {
       slug: "The Cruiser",
       title: "The Cruiser",
       cover:
-         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/m1.webp",
       description:
         "The meteor 350 cruiser motorcycle photographed in a scenic location, emphasizing its classic design and style.",
       model: "Royal Enfield Meteor 350",
-      location: "Hyderabad, Telangana,India",
+      location: "Hyderabad, Telangana, India",
       date: "May 2026",
       camera: "Sony A6000",
       lens: "55-210mm",
@@ -241,7 +247,7 @@ export const portfolio = {
       slug: "The Off-Roader",
       title: "The Off-Roader",
       cover:
-         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x1.webp",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/x1.webp",
       description:
         "The off-road capabilities of the Hero Xpulse 210 captured in a rugged outdoor environment.",
       model: "Hero Xpulse 210",
@@ -280,7 +286,6 @@ export const portfolio = {
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu4.webp",
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/automotive/hu5.webp",
       ],
-      
     },
   ],
 
@@ -290,7 +295,7 @@ export const portfolio = {
       slug: "Trishna 2024",
       title: "Trishna 2024",
       cover:
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e1.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e1.jpg",
       description:
         "College Event Trishna '25, captured in a series of photographs showcasing the vibrant atmosphere and activities.",
       model: "College Event",
@@ -299,16 +304,14 @@ export const portfolio = {
       camera: "Sony A6000",
       lens: "55-210mm",
       photos: [
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/evens/e1.jpg",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e2.jpg",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e3.jpg",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e4.jpg",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e5.jpg",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e6.jpg",
-        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e7.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e1.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e2.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e3.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e4.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e5.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e6.jpg",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/event/e7.jpg",
       ],
     },
-
-   
   ],
 };
