@@ -313,5 +313,27 @@ export const portfolio = {
         "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/e7.jpg",
       ],
     },
+    {
+      id: 2,
+      slug: "SoNight x RoastNToast",
+      title: "SoNight x RoastNToast",
+      cover:
+        "/images-optimized/events/so6.png",
+      description:
+        "Moments from the night hosted by SoNight at RoastNToast",
+      model: "Crowds",
+      location: "Madinaguda, Telangana, India",
+      date: "September 2026",
+      camera: "Sony A6000",
+      lens: "16-50mm",
+      photos: [
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/so6.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/so1.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/so2.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/so3.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/so4.png",
+        "https://image-cdn.sriharshakkala.workers.dev/images-optimized/events/so5.png",
+      ],
+    },
   ],
 };

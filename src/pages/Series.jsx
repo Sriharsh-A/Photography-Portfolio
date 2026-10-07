@@ -1,6 +1,12 @@
 import { Link, useParams } from "react-router-dom";
 import { portfolio } from "../data/portfolio";
 
+const categoryNames = {
+  portraits: "Portraits",
+  automotive: "Automotive",
+  events: "Events",
+};
+
 export default function Series() {
   const { category, slug } = useParams();
 
@@ -12,41 +18,53 @@ export default function Series() {
     return (
       <div className="not-found">
         <h1>Series not found.</h1>
-        <Link to="/">← Back home</Link>
+
+        <Link to="/" className="back-link">
+          ← BACK HOME
+        </Link>
       </div>
     );
   }
 
+  const categoryName =
+    categoryNames[category] || category.toUpperCase();
+
   return (
     <article className="series-page">
 
-      {/* BACK TO CATEGORY */}
+      {/* BACK */}
       <Link
         to={`/work/${category}`}
-        className="back-link"
+        className="back-link series-back"
       >
-        ← BACK TO WORK
+        ← BACK TO {categoryName.toUpperCase()}
       </Link>
 
-      <div className="series-header">
+      {/* HEADER */}
+      <header className="series-header">
 
-        <div className="series-category">
-          {category === "products"
-            ? "PRODUCT"
-            : category.toUpperCase()}
+        <div className="series-topline">
+          <span>{categoryName.toUpperCase()}</span>
+
+          <span>{series.date}</span>
         </div>
 
         <h1>{series.title}</h1>
 
-        <p className="series-description">
-          {series.description}
-        </p>
+        <div className="series-intro">
+          <p className="series-description">
+            {series.description}
+          </p>
 
-      </div>
+          <span className="series-count">
+            {String(series.photos.length).padStart(2, "0")} PHOTOS
+          </span>
+        </div>
+
+      </header>
 
       {/* DETAILS */}
-
-      <div className="series-details">
+      <section className="series-details" aria-label="Series details">
 
         <div>
           <span>MODEL / SUBJECT</span>
@@ -73,47 +91,51 @@ export default function Series() {
           <strong>{series.lens}</strong>
         </div>
 
-      </div>
+      </section>
 
       {/* GALLERY */}
-
-      <div className="series-gallery">
+      <section className="series-gallery">
 
         {series.photos.map((photo, index) => (
           <figure
-            key={index}
+            key={`${series.slug}-${index}`}
             className={
               index === 0
                 ? "gallery-feature"
-                : ""
+                : "gallery-item"
             }
           >
             <img
               src={photo}
-              alt={`${series.title} ${index + 1}`}
+              alt={`${series.title} — photograph ${index + 1}`}
               loading={index === 0 ? "eager" : "lazy"}
+              decoding="async"
             />
+
+            <figcaption>
+              {String(index + 1).padStart(2, "0")}
+            </figcaption>
           </figure>
         ))}
 
-      </div>
+      </section>
 
       {/* FOOTER */}
-
-      <div className="series-footer">
+      <footer className="series-footer">
 
         <Link
           to={`/work/${category}`}
-          className="back-link"
+          className="series-next-link"
         >
-          ← ALL {category === "products"
-            ? "PRODUCT"
-            : category.slice(0, -1).toUpperCase()}
+          <span>←</span>
+          <strong>VIEW ALL {categoryName.toUpperCase()}</strong>
         </Link>
 
-        <span>{series.title}</span>
+        <span className="series-footer-title">
+          {series.title}
+        </span>
 
-      </div>
+      </footer>
 
     </article>
   );

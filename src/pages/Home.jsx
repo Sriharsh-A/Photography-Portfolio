@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { portfolio } from "../data/portfolio";
 import CategoryNav from "../components/CategoryNav";
 import ScrollReveal from "../components/ScrollReveal";
+import Reels from "../components/Reels";
 
 function Category({ title, category, items }) {
   // Only show the first 4 on the homepage
@@ -105,6 +106,10 @@ export default function Home() {
           />
         </ScrollReveal>
       </section>
+
+      <ScrollReveal>
+      <Reels />
+      </ScrollReveal>
 
       {/* ABOUT */}
       <ScrollReveal>

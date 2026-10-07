@@ -1,0 +1,643 @@
+/* =========================================================
+   REELS / MOTION
+========================================================= */
+
+.reels-section {
+  width: 100%;
+  padding: 120px 0;
+}
+
+/* =========================================================
+   CAROUSEL
+========================================================= */
+
+.reels-carousel {
+  position: relative;
+
+  width: 100%;
+  margin-top: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reels-stage {
+  position: relative;
+
+  width: min(100%, 1100px);
+  height: 650px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+/* =========================================================
+   SLIDES
+========================================================= */
+
+.reel-slide {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 300px;
+
+  transform:
+    translate(-50%, -50%)
+    scale(0.72);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition:
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.5s ease,
+    filter 0.5s ease;
+
+  z-index: 1;
+}
+
+/* CENTER */
+
+.reel-position-0 {
+  transform:
+    translate(-50%, -50%)
+    scale(1);
+
+  opacity: 1;
+  pointer-events: auto;
+
+  z-index: 5;
+}
+
+/* LEFT */
+
+.reel-position--1 {
+  transform:
+    translate(calc(-50% - 300px), -50%)
+    scale(0.86);
+
+  opacity: 0.7;
+  pointer-events: auto;
+
+  z-index: 3;
+}
+
+/* RIGHT */
+
+.reel-position-1 {
+  transform:
+    translate(calc(-50% + 300px), -50%)
+    scale(0.86);
+
+  opacity: 0.7;
+  pointer-events: auto;
+
+  z-index: 3;
+}
+
+/* FAR LEFT */
+
+.reel-position--2 {
+  transform:
+    translate(calc(-50% - 520px), -50%)
+    scale(0.72);
+
+  opacity: 0.35;
+
+  z-index: 2;
+}
+
+/* FAR RIGHT */
+
+.reel-position-2 {
+  transform:
+    translate(calc(-50% + 520px), -50%)
+    scale(0.72);
+
+  opacity: 0.35;
+
+  z-index: 2;
+}
+
+/* =========================================================
+   REEL CARD
+========================================================= */
+
+.reel-card {
+  width: 100%;
+  min-width: 0;
+
+  cursor: pointer;
+}
+
+/* =========================================================
+   REEL VIDEO
+========================================================= */
+
+.reel-video-wrapper {
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 9 / 16;
+
+  overflow: hidden;
+
+  border-radius: 22px;
+
+  background: #111;
+
+  box-shadow:
+    0 14px 35px rgba(0, 0, 0, 0.14);
+
+  transform: translateZ(0);
+
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.45s ease;
+}
+
+.reel-position-0 .reel-video-wrapper {
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.24);
+}
+
+.reel-card:hover .reel-video-wrapper {
+  box-shadow:
+    0 28px 70px rgba(0, 0, 0, 0.28);
+}
+
+.reel-video-wrapper video {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reel-card:hover .reel-video-wrapper video {
+  transform: scale(1.035);
+}
+
+/* =========================================================
+   PLAY BUTTON
+========================================================= */
+
+.reel-play {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: translate(-50%, -50%);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+
+  background: rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  color: white;
+
+  font-size: 13px;
+
+  opacity: 0;
+
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.reel-position-0:hover .reel-play {
+  opacity: 1;
+}
+
+/* =========================================================
+   REEL OVERLAY
+========================================================= */
+
+.reel-overlay {
+  position: absolute;
+
+  left: 16px;
+  bottom: 16px;
+
+  color: white;
+
+  font-size: 9px;
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+
+  opacity: 0.8;
+}
+
+/* =========================================================
+   REEL INFO
+========================================================= */
+
+.reel-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 14px;
+}
+
+.reel-info h3 {
+  margin: 0;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reel-info span {
+  font-size: 16px;
+
+  transition:
+    transform 0.3s ease;
+}
+
+.reel-card:hover .reel-info span {
+  transform: translate(4px, -4px);
+}
+
+/* =========================================================
+   NAVIGATION BUTTONS
+========================================================= */
+
+.reel-nav {
+  position: absolute;
+
+  top: 50%;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--border);
+  border-radius: 50%;
+
+  background: var(--nav-bg);
+  color: var(--text);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+  z-index: 20;
+
+  transform: translateY(-50%);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.reel-nav:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.reel-nav-prev {
+  left: 18px;
+}
+
+.reel-nav-next {
+  right: 18px;
+}
+
+.reel-nav-prev:hover {
+  transform:
+    translateY(-50%)
+    translateX(-3px);
+}
+
+.reel-nav-next:hover {
+  transform:
+    translateY(-50%)
+    translateX(3px);
+}
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+html.dark .reel-video-wrapper {
+  background: #080808;
+
+  box-shadow:
+    0 14px 40px rgba(0, 0, 0, 0.45);
+}
+
+html.dark .reel-position-0 .reel-video-wrapper {
+  box-shadow:
+    0 25px 65px rgba(0, 0, 0, 0.65);
+}
+
+/* =========================================================
+   MODAL
+========================================================= */
+
+.reel-modal {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 99999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  background: rgba(0, 0, 0, 0.88);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  animation:
+    reelModalIn 0.3s ease forwards;
+}
+
+.reel-modal-content {
+  position: relative;
+
+  height: min(88vh, 900px);
+  aspect-ratio: 9 / 16;
+
+  max-width: 90vw;
+
+  overflow: hidden;
+
+  border-radius: 22px;
+
+  background: #000;
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.6);
+
+  animation:
+    reelPopIn 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reel-modal-content video {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+
+  background: #000;
+}
+
+.reel-modal-close {
+  position: fixed;
+
+  top: 24px;
+  right: 28px;
+
+  width: 46px;
+  height: 46px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  color: white;
+
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1;
+
+  cursor: pointer;
+
+  z-index: 100000;
+
+  transition:
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+.reel-modal-close:hover {
+  background: rgba(255, 255, 255, 0.16);
+
+  transform: rotate(90deg);
+}
+
+/* =========================================================
+   MODAL ANIMATION
+========================================================= */
+
+@keyframes reelModalIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reelPopIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+  .reels-section {
+    padding: 80px 0;
+  }
+
+  .reels-carousel {
+    margin-top: 30px;
+  }
+
+  .reels-stage {
+    width: 100%;
+    height: 570px;
+  }
+
+  .reel-slide {
+    width: 220px;
+  }
+
+  .reel-position--1 {
+    transform:
+      translate(calc(-50% - 170px), -50%)
+      scale(0.78);
+
+    opacity: 0.5;
+  }
+
+  .reel-position-1 {
+    transform:
+      translate(calc(-50% + 170px), -50%)
+      scale(0.78);
+
+    opacity: 0.5;
+  }
+
+  .reel-position--2,
+  .reel-position-2 {
+    opacity: 0;
+  }
+
+  .reel-video-wrapper {
+    border-radius: 18px;
+
+    box-shadow:
+      0 10px 25px rgba(0, 0, 0, 0.14);
+  }
+
+  .reel-info h3 {
+    font-size: 12px;
+  }
+
+  .reel-info span {
+    font-size: 14px;
+  }
+
+  .reel-overlay {
+    left: 12px;
+    bottom: 12px;
+
+    font-size: 7px;
+  }
+
+  .reel-play {
+    width: 44px;
+    height: 44px;
+
+    opacity: 1;
+  }
+
+  .reel-nav {
+    width: 42px;
+    height: 42px;
+
+    font-size: 16px;
+  }
+
+  .reel-nav-prev {
+    left: 8px;
+  }
+
+  .reel-nav-next {
+    right: 8px;
+  }
+
+  .reel-modal {
+    padding: 12px;
+  }
+
+  .reel-modal-content {
+    width: min(92vw, 430px);
+
+    height: auto;
+
+    aspect-ratio: 9 / 16;
+
+    border-radius: 18px;
+  }
+
+  .reel-modal-close {
+    top: 14px;
+    right: 14px;
+
+    width: 42px;
+    height: 42px;
+
+    font-size: 25px;
+  }
+}
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media (max-width: 480px) {
+  .reels-stage {
+    height: 500px;
+  }
+
+  .reel-slide {
+    width: 190px;
+  }
+
+  .reel-position--1 {
+    transform:
+      translate(calc(-50% - 145px), -50%)
+      scale(0.74);
+  }
+
+  .reel-position-1 {
+    transform:
+      translate(calc(-50% + 145px), -50%)
+      scale(0.74);
+  }
+}
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .reel-slide,
+  .reel-video-wrapper,
+  .reel-video-wrapper video,
+  .reel-nav,
+  .reel-modal,
+  .reel-modal-content {
+    transition: none !important;
+    animation: none !important;
+  }
+}
