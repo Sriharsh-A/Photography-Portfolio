@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { portfolio } from "../data/portfolio";
+import CategoryNav from "../components/CategoryNav";
+import ScrollReveal from "../components/ScrollReveal";
 
 function Category({ title, category, items }) {
   // Only show the first 4 on the homepage
@@ -9,6 +11,7 @@ function Category({ title, category, items }) {
     <section className="category">
       <div className="section-heading">
         <span>{title}</span>
+
         <span className="count">
           {String(items.length).padStart(2, "0")} SERIES
         </span>
@@ -38,7 +41,6 @@ function Category({ title, category, items }) {
         ))}
       </div>
 
-      {/* VIEW MORE */}
       <div className="view-more-wrapper">
         <Link to={`/work/${category}`} className="view-more">
           <span>VIEW MORE</span>
@@ -52,6 +54,10 @@ function Category({ title, category, items }) {
 export default function Home() {
   return (
     <div>
+      {/* Floating category navigation */}
+      <CategoryNav />
+
+      {/* HERO */}
       <section className="hero">
         <div className="hero-small">
           PHOTOGRAPHER / HYDERABAD
@@ -73,79 +79,92 @@ export default function Home() {
         </a>
       </section>
 
+      {/* WORK */}
       <section id="work" className="work-section">
-        <Category
-          title="Portraits"
-          category="portraits"
-          items={portfolio.portraits}
-        />
+        <ScrollReveal>
+          <Category
+            title="Portraits"
+            category="portraits"
+            items={portfolio.portraits}
+          />
+        </ScrollReveal>
 
-        <Category
-          title="Automotive"
-          category="automotive"
-          items={portfolio.automotive}
-        />
+        <ScrollReveal delay={100}>
+          <Category
+            title="Automotive"
+            category="automotive"
+            items={portfolio.automotive}
+          />
+        </ScrollReveal>
 
-        <Category
-          title="Events"
-          category="events"
-          items={portfolio.events}
-        />
+        <ScrollReveal delay={100}>
+          <Category
+            title="Events"
+            category="events"
+            items={portfolio.events}
+          />
+        </ScrollReveal>
       </section>
 
-      <section id="about" className="about">
-        <div className="section-heading">
-          <span>ABOUT</span>
-        </div>
+      {/* ABOUT */}
+      <ScrollReveal>
+        <section id="about" className="about">
+          <div className="section-heading">
+            <span>ABOUT</span>
+          </div>
 
-        <div className="about-content">
+          <div className="about-content">
+            <h2>
+              I photograph
+              <br />
+              <em>what catches my eye.</em>
+            </h2>
+
+            <div className="about-text">
+              <p>
+                I'm Sriharsh, a photographer based in Hyderabad, India.
+                I work across portraits, automobiles and events.
+              </p>
+
+              <p>
+                My approach is simple — good light, strong composition and
+                images that feel intentional.
+              </p>
+
+              <a href="#contact">
+                Let's work together →
+              </a>
+            </div>
+          </div>
+        </section>
+      </ScrollReveal>
+
+      {/* CONTACT */}
+      <ScrollReveal>
+        <section id="contact" className="contact">
+          <div className="contact-label">
+            HAVE A PROJECT?
+          </div>
+
           <h2>
-            I photograph
+            Let's make
             <br />
-            <em>what catches my eye.</em>
+            something <em>great.</em>
           </h2>
 
-          <div className="about-text">
-            <p>
-              I'm Sriharsh, a photographer based in Hyderabad, India.
-              I work across portraits, automobiles and events.
-            </p>
+          <a
+            href="mailto:sriharshakkala@gmail.com"
+            className="email"
+          >
+            sriharshakkala@gmail.com
+          </a>
 
-            <p>
-              My approach is simple — good light, strong composition and
-              images that feel intentional.
-            </p>
-
-            <a href="#contact">
-              Let's work together →
-            </a>
+          <div className="contact-bottom">
+            <span>HYDERABAD, INDIA</span>
+            <span>© 2026 SRIHARSH AKKALA</span>
           </div>
-        </div>
-      </section>
-
-      <section id="contact" className="contact">
-        <div className="contact-label">
-          HAVE A PROJECT?
-        </div>
-
-        <h2>
-          Let's make
-          <br />
-          something <em>great.</em>
-        </h2>
-
-        <a
-          href="mailto:sriharshakkala@gmail.com"
-          className="email"
-        >
-          sriharshakkala@gmail.com
-        </a>
-
-        <div className="contact-bottom">
-          <span>HYDERABAD, INDIA</span>
-          <span>© 2026 SRIHARSH AKKALA</span>
-        </div>
-      </section>
+        </section>
+      </ScrollReveal>
     </div>
   );
 }
